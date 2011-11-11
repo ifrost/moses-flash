@@ -50,8 +50,15 @@ You can use your own pattern definitions and own algorithms.
 
 # What kind of recognition algorithms are implemented in Moses library?
 
-Moses library implements set of _Moses algorithms_. They are described in wiki
+Moses library implements set of _Moses algorithms_. They are described [on wiki](https://github.com/ifrost/moses/wiki/Moses-algorithms)
 
 # How can I implement my own algorithm?
 
 You must implement Algorithm interface which provides match method. It must return Matching object which include information about how much user data is similar to pattern. You can use DistanceSampler and DefaultRecognizer or implements your own.  
+
+# Thanks
+
+Thanks to Didier Brun and his [Mouse Gesture Recognition](http://www.bytearray.org/?p=91). I did not use his code but his concept gave me some inspirations. Thanks!
+
+
+
