@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SWCProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FlexBinPath>..\bin\moses-0.5a.swc</FlexBinPath>
+  <FlexBinPath>lib\moses-0.5a.swc</FlexBinPath>
   <FlashBinPath>.\bin\moses.flash.swc</FlashBinPath>
   <FlexIncludeASI>false</FlexIncludeASI>
   <MakeCS3>false</MakeCS3>

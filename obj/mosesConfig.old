@@ -21,7 +21,6 @@
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
       <path-element>C:\projects\moses\src</path-element>
-      <path-element>C:\projects\flashutils</path-element>
       <path-element>C:\Program Files\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">

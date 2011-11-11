@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <flex-config xmlns="http://www.adobe.com/2006/flex-config">
-  <output>C:\projects\moses\..\bin\moses-0.5a.swc</output>
+  <output>C:\projects\moses\lib\moses-0.5a.swc</output>
   <use-network>true</use-network>
   <target-player>10.0</target-player>
   <warnings>true</warnings>
@@ -18,10 +18,9 @@
     <verbose-stacktraces>false</verbose-stacktraces>
     <source-path>
       <path-element>c:\projects\moses\src</path-element>
-      <path-element>c:\projects\flashutils</path-element>
     </source-path>
     <library-path>
-      <path-element>c:\projects\flashutils\greensock.swc</path-element>
+      <path-element>c:\projects\moses\lib\greensock.swc</path-element>
     </library-path>
   </compiler>
   <include-classes>

@@ -25,7 +25,7 @@ package pl.ifrost.moses.demo
 		public static const SIZE:Number = 100;
 		public static const BACKGROUND:uint = 0x0CFBE3;
 		public static const BORDER:uint = 0x1693A5;
-		public static const HIGHLIGHT:uint = 0xC3FF68;
+		public static const HIGHLIGHT:uint = 0x03FF68;
 		public static const MARKER:uint = 0x1693A5;
 		public static const PATH:uint = 0x1693A5;
 		public static const BORDER_SIZE:uint = 5;
@@ -83,7 +83,7 @@ package pl.ifrost.moses.demo
 			matrix.createGradientBox(SIZE, SIZE)
 			matrix.rotate(Math.PI / 2);
 			_backgroundSprite.graphics.beginGradientFill(GradientType.LINEAR, [color, color2], [1, 1],
-				[0, 255], matrix);
+				[100, 255], matrix);
 			
 			_backgroundSprite.graphics.drawRoundRect(0, 0, SIZE, SIZE, 50, 50);
 			_backgroundSprite.graphics.endFill();			
