@@ -214,7 +214,6 @@ package pl.ifrost.moses.views
 			maxY += shiftY;
 			
 			// fit to size by rescaling
-			trace(points);
 			var rescaleX:Number = 1;
 			if ((maxX - minX) > _width) {
 				rescaleX = _width / (maxX - minX);
