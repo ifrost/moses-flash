@@ -50,7 +50,7 @@ You can use your own pattern definitions and own algorithms.
 
 # What kind of recognition algorithms are implemented in Moses library?
 
-Moses library implements set of _Moses algorithms_. They are described in wiki
+Moses library implements set of _Moses algorithms_. They are described [on wiki](https://github.com/ifrost/moses/wiki/Moses-algorithms)
 
 # How can I implement my own algorithm?
 
