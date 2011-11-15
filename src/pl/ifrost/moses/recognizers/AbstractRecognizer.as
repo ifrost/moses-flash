@@ -45,6 +45,9 @@ package pl.ifrost.moses.recognizers
 		 */
 		public function register(pattern:Pattern):void
 		{
+			if (pattern.name in _patterns) {
+				throw new Error("Pattern with name " + pattern.name + " already registered!");
+			}
 			_patterns[pattern.name] = pattern;
 		}
 		

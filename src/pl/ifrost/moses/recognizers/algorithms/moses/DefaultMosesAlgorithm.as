@@ -28,7 +28,7 @@ package pl.ifrost.moses.recognizers.algorithms.moses
 		public function match(pattern:Pattern, samplingData:Array):Matching
 		{
 			var value:Number = matchingValue(pattern.data, samplingData);
-						
+			
 			// was pattern recognized?
 			var recognized:Boolean = value >= _threshold && samplingData.length >= _minSamplerPoints;		
 			

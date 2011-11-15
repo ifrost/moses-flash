@@ -104,9 +104,43 @@ package pl.ifrost.moses.recognizers.patterns
 		);
 		
 		public static var SEVEN:FlatPointsPattern = new FlatPointsPattern(
-			"Line (left - right)", 
+			"Seven", 
 			[0, 0, 10, 0, 20, 0, 30, 0, 40, 0, 50, 0, 60, 0, 70, 0, 80, 0, 90, 0, 100, 0,
 			90, 10, 80, 20, 70, 30, 60, 40, 50, 50, 40, 60, 30, 70, 20, 80, 10, 90, 0, 100], 
+			new DefaultMosesAlgorithm(0.7, 2)
+		);			
+		
+		public static var Z:FlatPointsPattern = new FlatPointsPattern(
+			"Z", 
+			[0, 0, 10, 0, 20, 0, 30, 0, 40, 0, 50, 0, 60, 0, 70, 0, 80, 0, 90, 0, 100, 0,
+			90, 10, 80, 20, 70, 30, 60, 40, 50, 50, 40, 60, 30, 70, 20, 80, 10, 90, 0, 100,
+			10, 100, 20, 100, 30, 100, 40, 100, 50, 100, 60, 100, 70, 100, 80, 100, 90, 100], 
+			new DefaultMosesAlgorithm(0.65, 4)
+		);				
+		
+		// LINES
+		
+		public static var LINE_UP_DOWN:FlatPointsPattern = new FlatPointsPattern(
+			"Up-down",
+			[0, 0, 0, 10, 0, 20, 0, 30, 0, 40, 0, 50, 0, 60, 0, 70, 0, 80, 0, 90, 0, 100],
+			new DefaultMosesAlgorithm(0.7, 2)
+		);
+		
+		public static var LINE_DOWN_UP:FlatPointsPattern = new FlatPointsPattern(
+			"Down-up",
+			[0, 0, 0, -10, 0, -20, 0, -30, 0, -40, 0, -50, 0, -60, 0, -70, 0, -80, 0, -90, 0, -100],
+			new DefaultMosesAlgorithm(0.7, 2)
+		);		
+		
+		public static var LINE_LEFT_RIGHT:FlatPointsPattern = new FlatPointsPattern(
+			"Left-right",
+			[0, 0, 10, 0, 20, 0, 30, 0, 40, 0, 50, 0, 60, 0, 70, 0, 80, 0, 90, 0, 100, 0],
+			new DefaultMosesAlgorithm(0.7, 2)
+		);
+		
+		public static var LINE_RIGHT_LEFT:FlatPointsPattern = new FlatPointsPattern(
+			"Right-left",
+			[0, 0, -10, 0, -20, 0, -30, 0, -40, 0, -50, 0, -60, 0, -70, 0, -80, 0, -90, 0, -100, 0],
 			new DefaultMosesAlgorithm(0.7, 2)
 		);				
 		
