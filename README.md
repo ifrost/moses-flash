@@ -4,8 +4,6 @@ Moses is mouse gesture recognition library implemented in ActionScript 3.
 
 # How it works?
 
-You can see quick example at: http://ifrost.pl/moses-demo
-
 Core elements of library are:
 
 * _Samplers_ (handles mouse event and dispatch SamplerEvent with sampling data)
